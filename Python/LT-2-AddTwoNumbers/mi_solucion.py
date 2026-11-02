@@ -41,7 +41,7 @@ class Solution:
         return primero
 
 l1 = ListNode(2, ListNode(4, ListNode(3)))
-l2 = ListNode(5, ListNode(6, ListNode(6)))
+l2 = ListNode(5, ListNode(6, ListNode(4)))
 
 solucion = Solution()
 resultado = solucion.addTwoNumbers(l1, l2)
